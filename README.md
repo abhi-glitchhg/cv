@@ -6,8 +6,10 @@
  Important note:
  This template requires the `resume.cls` file to be in the same directory as the `cv.tex` file. The resume.cls file provides the resume style used for structuring the document.
  
+
+Built with `LaTex Workshop` Vscode extension. 
  
-# Uploading cv to drive. 
+### Uploading cv to drive. 
 
 Each time you update your cv/resume and upload it on drive, new file id is created for each file. You can avoid this and keep using same file id (that is same url) for your updated cv/resumes. 
 

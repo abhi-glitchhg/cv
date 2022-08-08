@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#check if pdf file is in latex folder. 
+#bash script that does everything. 
 
 
 GREEN='\033[0;32m'

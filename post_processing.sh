@@ -33,7 +33,7 @@ if  [ -e latex/cv.pdf ]; then
     echo -e "${GREEN} Updating the file in drive. ${NC} \n \n \n"
 
     source ~/anaconda3/etc/profile.d/conda.sh
-    conda activate cv_drive
+    conda activate cv_env
     python drive_update.py
     conda deactivate
     sudo rm -rf $PWD/token_drive_v3

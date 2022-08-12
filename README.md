@@ -20,7 +20,6 @@ if the link for the file is https://drive.google.com/file/d/1fI1IJBeQgKoasgluF17
 ```
 3) Install the dependancies by running  
 ```bash 
-# using virtual environment is preferred.
 conda create --name cv_env python
 pip install -r requirements.txt
 ```

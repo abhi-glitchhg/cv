@@ -13,7 +13,7 @@ Each time you update your cv/resume and upload it on drive, new file id is creat
 You will need to upload the cv for first time, and then note down the file id for the cv. We will use it later. 
 if the link for the file is https://drive.google.com/file/d/1fI1IJBeQgKoasgluF17P9Ys2zU6eC2WX ; the file id wil be: `1fI1IJBeQgKoasgluF17P9Ys2zU6eC2WX`
 
-1) Make sure you have python installed. If not, visit [this](https://www.python.org/downloads/)
+1) Make sure you have python and anaconda installed. If not, visit [this](https://www.python.org/downloads/) and [this](https://anaconda.org/)
 2) Open command prompt and navigate to the parent directory for cv directory. In my case this is 
 ```bash
 ~/cv >  

@@ -24,7 +24,7 @@ conda create --name cv_env python
 pip install -r requirements.txt
 ```
 4) Go to the drive api console and create a new project. Read more about it [here](https://developers.google.com/drive/api/guides/enable-drive-api)
-5) In the left side bar of the console, you will find library button, click on it and add `google drive api` library to the project.
+5) In the left side bar of the console, you will find `library` button, click on it and add `google drive api` library to the project.
 6) Again in the left side bar of the cosolde, you will find the `credentials` button, click on it and select OAth client Id, fill in the information  and after finishing it, download the secret json keys (Dont share/upload this file in public forums.) We will assume that you have saved the json file as  `secret.json`. If you have saved with some other name, please updat the 54th line of `update_drive.py` script accordingly. 
 
 7) Remember the file id for the file uploaded on the drive? Replace the 65th line in the  `drive_update.py` with appropriate file id. Also make sure that you have added name of your secret files in `.gitignore`.
